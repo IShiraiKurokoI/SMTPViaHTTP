@@ -8,9 +8,9 @@
         <version>3.2.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.ShiraiKuroko</groupId>
     <artifactId>SMTPViaHTTP</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1</version>
     <name>SMTPViaHTTP</name>
     <description>SMTPViaHTTP</description>
     <properties>
