@@ -40,6 +40,31 @@ public class Redirector {
         return mailSender;
     }
 
+    // no ssl
+    //{
+    //  "from": "sender@example.com",
+    //  "to": "receiver@example.com",
+    //  "subject": "Test Email Without SSL",
+    //  "body": "<p>This is a test email.</p>",
+    //  "smtp_server": "smtp.example.com",
+    //  "smtp_port": 25,
+    //  "username": "sender@example.com",
+    //  "password": "password",
+    //  "use_ssl": false
+    //}
+
+    // with ssl
+    //{
+    //  "from": "sender@example.com",
+    //  "to": "receiver@example.com",
+    //  "subject": "Test Email With SSL",
+    //  "body": "<p>This is a test email.</p>",
+    //  "smtp_server": "smtp.example.com",
+    //  "smtp_port": 465,
+    //  "username": "sender@example.com",
+    //  "password": "password",
+    //  "use_ssl": true
+    //}
     @PostMapping("/sendEmail")
     @ResponseBody
     public String sendEmail(@RequestBody String jsonString) {
