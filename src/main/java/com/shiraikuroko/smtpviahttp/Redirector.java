@@ -77,7 +77,7 @@ public class Redirector {
 
             // 创建 MimeMessage 实例
             MimeMessage message = mailSender.createMimeMessage();
-            MimeMessageHelper helper = new MimeMessageHelper(message, true);
+            MimeMessageHelper helper = new MimeMessageHelper(message, true,"UTF-8");
 
             // 设置邮件发送者
             helper.setFrom(emailRequest.getFrom());
